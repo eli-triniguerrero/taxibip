@@ -9,6 +9,7 @@ body {
     background-color: #333333;
 }
 
+
 /*TIPOGRAFIAS*/
 .text-JetBrains-bold {
     font-family: 'JetBrains Mono', monospace !important;
@@ -36,4 +37,41 @@ body {
 /* CAJAS DE TEXTO */
 .box-title {
     width: 30rem;
+}
+
+.img-right {
+    text-align: right;
+}
+
+
+@media (max-width:900px) {
+    .bg-img-init {
+        background-image: url('../imgs/taxibip_mobile.jpg');
+        
+    }
+    .box-blue-primary {
+        width: 18rem;
+    }
+    .box-title {
+        width: 12rem;
+    }
+    .text-paragraph {
+        display: none;
+    }
+    .text-link {
+        text-align: center;
+    }
+    .link-social {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    .img-center {
+        text-align: center;
+    }
+    .img-center img {
+        padding-bottom: 1rem;
+        width: 150px;
+    }
+
 }
