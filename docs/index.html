@@ -5,8 +5,180 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAXIBIP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bd1a5cacaf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- Image and text -->
+<nav class="navbar navbar-light bg-white">
+    <a class="navbar-brand" href="#">
+      <img src="imgs/taxibip_logo_color.png" width="200" class="d-inline-block align-top" alt="">
+    </a>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quiero conducir</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quiero viajar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Iniciar sesión</a>
+        </li>
+      </ul>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 bg-img bg-img-init">
+            <div class="row">
+                <div class="col-md-6 mt-5 mb-5 p-0">
+                    <div class="bg-primary rounded p-5">
+                        <h1 class="font-weight-bold text-white box-title">Muévete en tu ciudad
+                            y disfruta del viaje</h1>
+                        <h1 class="font-weight-bold text-white box-title mt-5">
+                            Viaja con <span class="text-JetBrains-bold">TAXIBIP</span>
+                        </h1>
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-light pill btn-lg rounded-pill mr-5" 
+                                role="button" aria-pressed="true">
+                                <span class="text-jetbrains-bold font-weight-bold">TAXIBIP</span> Conductor
+                            </a>
+                            <a href="#" class="btn btn-light pill btn-lg rounded-pill" 
+                                role="button" aria-pressed="true">
+                                <span class="text-jetbrains-bold font-weight-bold">TAXIBIP</span> Conductor
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 p-5 text-center">
+            <img src="imgs/img_mobile_app.png" class="" 
+            alt="imagen de telefono movil con logo de taxibip" srcset="" width="">
+        </div>
+        <div class="col-md-8 p-5">
+            <h2 class="font-weight-bold pt-4 pb-4">Viaja seguro</h2>
+            <p>Viajando con nosotros tiene tarifas más baratas para que viajes al mismo lugar y 
+                llegues al mismo tiempo, pagando menos.</p>
+            <p>Tiene soporte 24/7 en todos tus viajes y puedes contar con nuestras herramientas 
+                de seguridad para que viajes con la tranquilidad que mereces.</p>
+        <p>¡Es momento de redescubrir tu ciudad favorita de México con solo un TAXI BIP!</p>
+        <div class="btn-group">
+            <a href="#" class="stretched text-link">
+                Conoce más sobre las Funciones de Seguridad
+            </a>
+        </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 bg-img bg-img-medium">
+            <p>texto aqui</p>
+        </div>
+        <div class="col-md-6 p-5 text-white bg-primary">
+            <h2 class="pt-5">Conócenos</h2>
+            <p><span class="font-weight-bold text-jetbrains-bold">TAXIBIP</span> es la plataforma de movilidad inteligente líder en el mundo.</p>
+            <p>Conectamos con un enorme número de usuarios por medio de soluciones de movilidad como 
+                transporte por aplicación, transporte en taxi, viajes compartidos, entrega de comida, 
+                servicios financieros, entre otros, colaborando con legisladores, industrias y 
+                comunidades para resolver, por medio de la tecnología, los desafíos de movilidad en las 
+                ciudades.</p>
+                <div class="btn-group pb-5">
+                    <a href="#" class="btn btn-light pill btn-lg rounded-pill mr-5" 
+                        role="button" aria-pressed="true">
+                        <span class="text-jetbrains-bold font-weight-bold">TAXIBIP</span> en el mundo
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 p-5">
+            <h2>Calcula la tarifa de tu primer viaje TAXIBIP</h2>
+            <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Ubicación de origen</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escribe tu ubicación">
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput2">Destino</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escribe tu destino">
+                </div>
+                <button type="submit" class="btn btn-primary pill btn-lg btn-block rounded-pill mr-5">Calcular</button>
+              </form>
+        </div>
+        <div class="col-md-6 p-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30098.758578111836!2d-99.2181992500682!3d19.440694401302856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2021a6e3a3d09%3A0x9372e2224c033cb3!2sMuseo%20Soumaya!5e0!3m2!1ses-419!2smx!4v1664154145252!5m2!1ses-419!2smx" 
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+  </div>
+  
+  <footer class="container-fluid py-5 bg-darkness text-white">
+    <div class="row p-5">
+        <div class="col-md-12 pb-3">
+            <a href="#" target="_blank" class="text-white font-weight-bold">Visita el Centro de Ayuda</a>
+        </div>
+      <div class="col-md-4">
+        <h5>Compañia</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-white" href="#">Quiénes somos</a></li>
+          <li><a class="text-white" href="#">Lo que somos</a></li>
+          <li><a class="text-white" href="#">Sala de prensa</a></li>
+          <li><a class="text-white" href="#">Inversionistas</a></li>
+          <li><a class="text-white" href="#">Tarjetas de regalo</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Productos</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-white" href="#">Viajes</a></li>
+          <li><a class="text-white" href="#">Conductores</a></li>
+          <li><a class="text-white" href="#">Hacer entregas</a></li>
+          <li><a class="text-white" href="#">Comidas</a></li>
+          <li><a class="text-white" href="#">Uber para empresas</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Ciudadanía global</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-white" href="#">Seguridad</a></li>
+          <li><a class="text-white" href="#">Diversidad e inclusión</a></li>
+          <li><a class="text-white" href="#">Privacidad</a></li>
+          <li><a class="text-white" href="#">Accesibilidad</a></li>
+          <li><a class="text-white" href="#">Términos</a></li>
+        </ul>
+      </div>
+        <div class="col-md-12">
+            <hr class="bg-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="imgs/taxibip_logo_white.png" alt="" srcset="" width="132">
+                    <a href="#" target="_blank" class="text-white p-3"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" target="_blank" class="text-white p-3"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#" target="_blank" class="text-white p-3"><i class="fa-brands fa-square-youtube"></i></a>
+                    <a href="#" target="_blank" class="text-white p-3"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" target="_blank" class="text-white p-3"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="col-md-6 text-right">
+                    <img src="imgs/google-play.png" alt="descargar aplicacion en google play" width="132">
+                    <img src="imgs/app-store.png" alt="descargar aplicacion en istore apple" width="132">
+                </div>
+            </div>
+        </div>
+  </footer>
+  
     
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
 </body>
 </html>

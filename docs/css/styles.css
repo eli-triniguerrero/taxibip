@@ -1,0 +1,39 @@
+body {
+    color: #333333 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px !important;
+}
+
+/*COLORES*/
+.bg-darkness {
+    background-color: #333333;
+}
+
+/*TIPOGRAFIAS*/
+.text-JetBrains-bold {
+    font-family: 'JetBrains Mono', monospace !important;
+}
+.text-md {
+    font-size: 1.2rem;
+}
+/* IMAGENES */
+.bg-img {
+    background-size:cover;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 90vh;
+} 
+.bg-img-init {
+    background-image: url('../imgs/img_banner_taxibip_01.jpg');
+    width: 100%;
+}
+.bg-img-medium {
+    background-image: url('../imgs/taxibip_03.jpg');
+    width: 100%;
+}
+
+/* CAJAS DE TEXTO */
+.box-title {
+    width: 30rem;
+}
