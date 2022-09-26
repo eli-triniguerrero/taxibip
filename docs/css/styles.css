@@ -42,15 +42,19 @@ body {
 .img-right {
     text-align: right;
 }
+@media (max-width:500px) {
 
+    .box-blue-primary {
+        width: 80%;
+    }
+}
 
 @media (max-width:900px) {
     .bg-img-init {
-        background-image: url('../imgs/taxibip_mobile.jpg');
-        
+        background-image: url('../imgs/taxibip_mobile.jpg');   
     }
-    .box-blue-primary {
-        width: 18rem;
+    .bg-img-medium {
+        height: 40vh;
     }
     .box-title {
         width: 12rem;
@@ -60,6 +64,7 @@ body {
     }
     .text-link {
         text-align: center;
+        padding-top:1rem !important ;
     }
     .link-social {
         padding-top: 2rem;
