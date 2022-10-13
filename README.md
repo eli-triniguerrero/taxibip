@@ -1,9 +1,10 @@
-# (( BIP BIP )) ¡TAXI! 
 
-![TAXIBIP](docs/imgs/taxibip_logo_color.png)
+![TAXIBIP](docs/imgs/taxibip_desktop.jpg)
 
 ##  Pide taxi cuándo quieras, dónde quieras con TAXIBIP APP
-[VER PROTOTIPO ALTA FIDELIDAD - FIGMA](https://www.figma.com/proto/UU3zL93Kv2q6FTvvGG6vlt/TAXIBIP_APP?node-id=5%3A54&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=5%3A54&show-proto-sidebar=1)
+[VER PROTOTIPO ALTA FIDELIDAD - FIGMA DESKTOP](https://www.figma.com/proto/UU3zL93Kv2q6FTvvGG6vlt/TAXIBIP_APP?node-id=5%3A54&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=5%3A54)
+
+[PROTOTIPO ALTA FIDELIDAD - FIGMA MÓVIL](https://www.figma.com/proto/UU3zL93Kv2q6FTvvGG6vlt/TAXIBIP_APP?node-id=12%3A130&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=12%3A130)
 #
 ### BRIEF
 #
@@ -40,7 +41,3 @@ El producto:
 
 #### Logotipo, paleta de color, tipografía
 ![Boceto para definición del logo](/docs/imgs/taxibip_logo_color_tipo.jpg)
-
-## DEMO VISTA ESCRITORIO
-
-[PROTOTIPO ALTA FIDELIDAD - VISTA ESCRITORIO y MÓVIL](https://www.figma.com/proto/UU3zL93Kv2q6FTvvGG6vlt/TAXIBIP_APP?node-id=5%3A54&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=5%3A54&show-proto-sidebar=1)
